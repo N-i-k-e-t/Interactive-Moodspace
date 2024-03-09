@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f5;
+    overflow: hidden; /* Hide scrollbars */
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.intro {
+    text-align: center;
+    z-index: 2;  /* Ensure intro is on top */
+}
+
+#moodscape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: 1;  
+}
